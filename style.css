@@ -12,7 +12,7 @@ body {
     padding: 0;
     height: 100%;
     background-color: var(--Darkcyan);
-    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
     background-position: -30% 270%, 130% -200%;
     background-attachment: fixed;
     /* background-position: left top, right bottom; */
@@ -28,7 +28,7 @@ body {
     width: 300px;
     height: 340px;
     background-color: #fff;
-    background-image: url('/images/bg-pattern-card.svg');
+    background-image: url('./images/bg-pattern-card.svg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -40,7 +40,7 @@ body {
 .face {
     width: 80px;
     height: 80px;
-    background: url('/images/image-victor.jpg') no-repeat;
+    background: url('./images/image-victor.jpg') no-repeat;
     background-size: contain;
     border-radius: 80px;
     border: 5px solid #fff;
@@ -134,7 +134,7 @@ body {
         padding: 0;
         height: 100%;
         background-color: var(--Darkcyan);
-        background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+        background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
         background-position: -800% -60%, 870% 140%;
         /* background-attachment: fixed; */
         /* background-position: left top, right bottom; */
